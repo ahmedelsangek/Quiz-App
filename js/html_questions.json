@@ -1,0 +1,82 @@
+[
+    {
+    "title": "Which function among the following lets to register a function to be invoked repeatedly after a certain time?",
+    "answer_1": "setTimeout()",
+    "answer_2": "setTotaltime()",
+    "answer_3": "setInterval()",
+    "answer_4": "none of the mentioned",
+    "right_answer": "setInterval()"
+    },
+    {
+        "title": "To which object does the location property belong?",
+        "answer_1": "Window",
+        "answer_2": "Position",
+        "answer_3": "Element",
+        "answer_4": "Location",
+        "right_answer": "Window"
+    },
+    {
+        "title": "What is the result of the following code snippet? <br> <pre style='color:#212529; font-size: 87.5%'> window.location === document.location </pre>",
+        "answer_1": "False",
+        "answer_2": "True",
+        "answer_3": "1",
+        "answer_4": "0",
+        "right_answer": "True"
+    },
+    {
+        "title": "Which of the following is not a framework?",
+        "answer_1": "jQuery",
+        "answer_2": ".NET",
+        "answer_3": "JavaScript",
+        "answer_4": "None of the mentioned",
+        "right_answer": "JavaScript"
+    },
+    {
+        "title": "Inside which HTML element do we put the JavaScript?",
+        "answer_1": "<javascript>",
+        "answer_2": "<script>",
+        "answer_3": "<scripting>",
+        "answer_4": "<js>",
+        "right_answer": "<script>"
+    },
+    {
+        "title": "How to write an IF statement in JavaScript?",
+        "answer_1": "if i = 5",
+        "answer_2": "if i == 5 then",
+        "answer_3": "if (i == 5)",
+        "answer_4": "if i = 5 then",
+        "right_answer": "if (i == 5)"
+    },
+    {
+        "title": "What is the correct syntax for referring to an external script called 'script.js'?",
+        "answer_1": "<script src='script.js'>",
+        "answer_2": "<script href='script.js'>",
+        "answer_3": "<script name='script.js'>",
+        "answer_4": "<script link='script.js'>",
+        "right_answer": "<script src='script.js'>"
+    },
+    {
+        "title": "How do you write 'Hello World' in an alert box?",
+        "answer_1": "alert('Hello World');",
+        "answer_2": "msgBox('Hello World');",
+        "answer_3": "prompt('Hello World');",
+        "answer_4": "alertBox('Hello World');",
+        "right_answer": "alert('Hello World');"
+    },
+    {
+        "title": "How do you create a function in JavaScript?",
+        "answer_1": "function = myFunction()",
+        "answer_2": "function:myFunction()",
+        "answer_3": "function myFunction()",
+        "answer_4": "None of the mentioned",
+        "right_answer": "function myFunction()"
+    },
+    {
+        "title": "How do you call a function named 'myFunction?'",
+        "answer_1": "myFunction()",
+        "answer_2": "call function myFunction()",
+        "answer_3": "call myFunction()",
+        "answer_4": "None of the mentioned",
+        "right_answer": "myFunction()"
+    }
+]

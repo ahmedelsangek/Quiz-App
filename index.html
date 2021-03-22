@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App!</title>
+    <link rel="icon" href="./imgs/fav.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+</head>
+<body>
+    <div class="quiz-app">
+        <div class="container">
+            <div class="login-name">
+                <div class="info">
+                    <i class="material-icons face">face</i>
+                    <h2>What's Your Nick Name?</h2>
+                    <input class="input-name" type="text" name="nick-name" placeholder="Nick Name">
+                </div>
+                <button class="proceed-button">proceed...</button>
+            </div>
+
+            <div class="login-password">
+                <div class="info">
+                    <i class="material-icons finger-print">https</i>
+                    <h2></h2>
+                    <input class="input-pass" type="password" name="nick-pass" placeholder="Provided Key">
+                </div>
+                <button class="confirm-button">Confirm Identity</button>
+            </div>
+
+            <div class="incorrect-password">
+                <div class="info">
+                    <i class="material-icons warning">warning</i>
+                    <h2 style="color: black;">Errrr!</h2>
+                    <h3>The password was NOT Correct!</h3>
+                </div>
+                <button class="dismiss-button">Dismiss</button>
+            </div>
+
+            <div class="start-quiz">
+                <div class="info">
+                    <i class="material-icons success">done_all</i>
+                    <h2>Bingo!</h2>
+                    <h3 style="color: rgb(40, 167, 69);">The password was Correct!</h3>
+                </div>
+                <button class="button-start">Start Quiz ></button>
+            </div>
+
+            <div class="questions-slide">
+                <div class="info">
+                    <h2>JavaScript Quiz:</h2>
+                    <div class="spans">
+                        <span class="on"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="timer">
+                        
+                    </div>
+                    <p class="question">
+                        Inside which HTML element do we put the JavaScript?
+                    </p>
+                    <div class="answers">
+                    
+                    </div>
+                </div>
+                <button class="next-question">Next</button>
+            </div>
+
+            <div class="result-slide">
+                <div class="info">
+                    <div class="result-pers">
+                        <svg viewbox="0 0 36 36" class="circular-chart orange">
+                            <path class="circle-bg"
+                                d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <path class="circle"
+                                stroke-dasharray="30, 100"
+                                d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                            />
+                            <text x="19" y="20.35" class="percentage">90%</text>
+                        </svg>
+                    </div>
+                    <h2>
+                        Oh No! Your Are Failed...<br>
+                        Better Luck Next Time
+                    </h2>
+                    <h3>Correct Answers: <span>1</span></h3>
+                    <hr>
+                    <div class="retake-button">
+                        <button class="retake-quiz">Retake Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="exite">Exite</button>
+    <script src="https://kit.fontawesome.com/63e98bee0f.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
